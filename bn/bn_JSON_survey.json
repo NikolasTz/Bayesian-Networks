@@ -1,0 +1,6 @@
+[{"name":"A","cardinality":3,"values":["young","adult","old"],"parents":[ ] },
+{"name":"E","cardinality":2,"values":["high","uni"],"parents":[{"name":"S","cardinality":2,"values":["M","F"],"parents":[]},{"name":"A","cardinality":3,"values":["young","adult","old"],"parents":[]}] },
+{"name":"O","cardinality":2,"values":["emp","self"],"parents":[{"name":"E","cardinality":2,"values":["high","uni"],"parents":[]}] },
+{"name":"R","cardinality":2,"values":["small","big"],"parents":[{"name":"E","cardinality":2,"values":["high","uni"],"parents":[]}] },
+{"name":"S","cardinality":2,"values":["M","F"],"parents":[ ] },
+{"name":"T","cardinality":3,"values":["car","train","other"],"parents":[{"name":"R","cardinality":2,"values":["small","big"],"parents":[]},{"name":"O","cardinality":2,"values":["emp","self"],"parents":[]}] }]

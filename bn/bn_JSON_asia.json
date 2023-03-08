@@ -1,0 +1,8 @@
+[{"name":"asia","trueParameters":["0.01","0.99"],"cardinality":2,"values":["yes","no"],"parents":[ ] },
+{"name":"bronc","trueParameters":["0.6,0.3","0.4,0.7"],"cardinality":2,"values":["yes","no"],"parents":[{"name":"smoke","cardinality":2,"values":["yes","no"],"parents":[]}] },
+{"name":"dysp","trueParameters":["0.9,0.8,0.7,0.1","0.1,0.2,0.3,0.9"],"cardinality":2,"values":["yes","no"],"parents":[{"name":"bronc","cardinality":2,"values":["yes","no"],"parents":[]},{"name":"either","cardinality":2,"values":["yes","no"],"parents":[]}] },
+{"name":"either","trueParameters":["1.,1.,1.,0.","0.,0.,0.,1."],"cardinality":2,"values":["yes","no"],"parents":[{"name":"lung","cardinality":2,"values":["yes","no"],"parents":[]},{"name":"tub","cardinality":2,"values":["yes","no"],"parents":[]}] },
+{"name":"lung","trueParameters":["0.1,0.01","0.9,0.99"],"cardinality":2,"values":["yes","no"],"parents":[{"name":"smoke","cardinality":2,"values":["yes","no"],"parents":[]}] },
+{"name":"smoke","trueParameters":["0.5","0.5"],"cardinality":2,"values":["yes","no"],"parents":[ ] },
+{"name":"tub","trueParameters":["0.05,0.01","0.95,0.99"],"cardinality":2,"values":["yes","no"],"parents":[{"name":"asia","cardinality":2,"values":["yes","no"],"parents":[]}] },
+{"name":"xray","trueParameters":["0.98,0.05","0.02,0.95"],"cardinality":2,"values":["yes","no"],"parents":[{"name":"either","cardinality":2,"values":["yes","no"],"parents":[]}] }]
